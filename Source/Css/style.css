@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+.mainTitle{
+    font-weight: 400;
+}
+
+.mainContainer{
+    justify-content: center;
+    align-items: flex-start;
+}
+
+input{
+    max-width: 220px;
+    width: 150px;
+}
+
+.title{
+    padding: 0;
+}
+
+.paragraphContainer{
+    text-align: justify;
+}
+
+@media only screen and (max-width: 468px){
+    .title{
+        font-size: 12px;
+    }
+}
